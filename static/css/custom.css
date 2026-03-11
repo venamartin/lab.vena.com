@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@font-face {
+  font-family: neuropol;
+  src: url('../fonts/neuropol.woff') format('woff'),
+    url('../fonts/neuropol.ttf') format('truetype');
+
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  font-family: 'neuropol' !important;
+  color: #1CA8DD !important;
+  text-transform: lowercase !important;
+}
+
+/* Hide the navbar brand (title) by default when at the top of the homepage */
+.navbar-custom.is-homepage .navbar-brand {
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.5s, opacity 0.5s ease-in-out;
+}
+
+/* Show the navbar brand (title) when scrolled down on the homepage */
+.navbar-custom.is-homepage.top-nav-short .navbar-brand {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Reduce space below title underscore */
+.intro-header {
+  margin-bottom: 5 !important;
+}
+
+.posts-list .post-preview:first-child {
+  padding-top: 0 !important;
+}
+
+.intro-header .page-heading h1 {
+  font-family: 'neuropol' !important;
+}
+
+/* Reduce font sizes on mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 15px !important;
+  }
+
+  .intro-header .page-heading h1 {
+    font-size: 32px !important;
+  }
+
+  .post-preview .post-title {
+    font-size: 24px !important;
+  }
+
+  .post-preview .post-meta,
+  .post-heading .post-meta,
+  .page-meta {
+    font-size: 14px !important;
+  }
+}

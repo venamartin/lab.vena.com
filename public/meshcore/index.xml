@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vena lab</title>
+    <link>/meshcore/</link>
+    <description>Recent content on vena lab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/meshcore/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Meshcore Node Build</title>
+      <link>/meshcore/low-cost-repeater-build/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
+      <guid>/meshcore/low-cost-repeater-build/</guid>
+      <description>&lt;h2 id=&#34;project-kickoff&#34;&gt;Project Kickoff&lt;/h2&gt;&#xA;&lt;p&gt;This is the documentation for the first Meshcore build.&lt;/p&gt;&#xA;&lt;h3 id=&#34;hardware-list&#34;&gt;Hardware List:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Raspberry Pi&lt;/li&gt;&#xA;&lt;li&gt;Power Supply&lt;/li&gt;&#xA;&lt;li&gt;Custom enclosure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;More updates to come as the build progresses.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
