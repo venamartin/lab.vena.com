@@ -1,5 +1,5 @@
 baseurl = "/"
-relativeURLs = true
+relativeURLs = false
 DefaultContentLanguage = "en"
 title = "vena lab"
 
