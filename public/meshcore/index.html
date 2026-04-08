@@ -16,24 +16,23 @@
 
   <meta name="author" content="Some Person"/><script type="application/ld+json">
 {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "vena lab",
-    
-    "url": "https:\/\/lab.vena.com\/"
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "",
-  "url": "https:\/\/lab.vena.com\/"
-  
-  
-  
-  
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "vena lab",
+  "url": "https://lab.vena.com/",
+  "@id": "https://lab.vena.com/#website"
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Some Person",
+  "@id": "https://lab.vena.com/#organization",
+  "url": "https://lab.vena.com/"
+}
+</script>
+
 
 <meta property="og:title" content="vena lab" />
 <meta property="og:image" content="https://lab.vena.com/img/square-logo.png" />
@@ -88,11 +87,11 @@
           <a class="navlinks-parent" role="button" tabindex="0">Samples</a>
           <div class="navlinks-children">
             
-            <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+            <a href="/post/2017-03-07-bigimg-sample/">Big Image Sample</a>
             
-            <a href="/post/2017-03-05-math-sample">Math Sample</a>
+            <a href="/post/2017-03-05-math-sample/">Math Sample</a>
             
-            <a href="/post/2016-03-08-code-sample">Code Sample</a>
+            <a href="/post/2016-03-08-code-sample/">Code Sample</a>
             
           </div>
         </li>
@@ -106,7 +105,7 @@
         
         
         <li>
-          <a title="Tags" href="/tags">Tags</a>
+          <a title="Tags" href="/tags/">Tags</a>
         </li>
         
         
@@ -202,7 +201,7 @@
           
             <article class="post-preview">
     <a href="https://lab.vena.com/meshcore/low-cost-repeater-build/">
-        <h2 class="post-title">First Meshcore Node Build</h2>
+        <h2 class="post-title">Low Cost Solar Meshcore Repeater</h2>
         
         
         
@@ -216,10 +215,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on March 9, 2026
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;min
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;min
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;27&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;710&nbsp;words
   
   
     
@@ -233,16 +232,30 @@
     </p>
     <div class="post-entry">
         
-        <h2 id="project-kickoff">Project Kickoff</h2>
-<p>This is the documentation for the first Meshcore build.</p>
-<h3 id="hardware-list">Hardware List:</h3>
-<ul>
-<li>Raspberry Pi</li>
-<li>Power Supply</li>
-<li>Custom enclosure</li>
-</ul>
-<p>More updates to come as the build progresses.</p>
+        <div class="gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+	  
 
+
+<link rel="stylesheet" href="https://lab.vena.com/css/hugo-easy-gallery.css" />
+<div class="box" >
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img" style="background-image: url('https://lab.vena.com//images/low-cost-repeater-inside-thumb.jpg');">
+      <img itemprop="thumbnail" src="/images/low-cost-repeater-inside-thumb.jpg" alt="Internal"/>
+    </div>
+    <a href="/images/low-cost-repeater-inside.jpg" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>Internal</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+</div>
+
+<h2 id="low-cost-solar-meshcore-repeater">Low Cost Solar Meshcore Repeater</h2>
+<p>This Meshcore repeater utilizes the RAK WisMesh 1W Booster Starter Kit (3401 + 13302). Powered by the RAK3401 WisBlock Core module with the Nordic nRF52840 MCU and the RAK13302 1W LoRa transceiver module, delivering up to 1W (30 dBm) transmit power.</p>
+<p>The build does require access to a 3D printer and preferably ADA filament. The enclosure and brackets are designed to be mounted on a pole.</p>
+        <a href="https://lab.vena.com/meshcore/low-cost-repeater-build/" class="post-read-more">[Read More]</a>
         
     </div>
 

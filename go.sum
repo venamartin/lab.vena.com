@@ -1,6 +1,10 @@
 github.com/halogenica/beautifulhugo v0.0.0-20260205145405-beb9bfe3f6ba h1:EfDzKDJhUN0+PG3o5IdVGXD9y0ToJ5VDuwG0sEB4omg=
 github.com/halogenica/beautifulhugo v0.0.0-20260205145405-beb9bfe3f6ba/go.mod h1:4dwHt6njigk+fr9W3Bg+OflL4LKzkjbXAULXvr3mYLs=
+github.com/halogenica/beautifulhugo v0.0.0-20260331144909-84b4ad9e12e6 h1:KSNmuzV0Ry7mawT/WP8VI8h10mwBcqvq+2TOVF2zA+A=
+github.com/halogenica/beautifulhugo v0.0.0-20260331144909-84b4ad9e12e6/go.mod h1:4dwHt6njigk+fr9W3Bg+OflL4LKzkjbXAULXvr3mYLs=
 github.com/venamartin/meshcore-builds v0.0.0-20260310002925-892f26a96b94 h1:jMZWgwctqegdynDYvdHO76fYWamyr9U3CuXXGZpgwKA=
 github.com/venamartin/meshcore-builds v0.0.0-20260310002925-892f26a96b94/go.mod h1:j3hxTrk2GO9deXgyv+Zuem/croN/xZwcsKlZyaHVBHs=
 github.com/venamartin/meshcore-builds v0.0.0-20260310005750-b6e37337ce63 h1:dVnBSS9Y+U48wtn2TscnNvtpG4R474nfmIdI2fzZ4pc=
 github.com/venamartin/meshcore-builds v0.0.0-20260310005750-b6e37337ce63/go.mod h1:j3hxTrk2GO9deXgyv+Zuem/croN/xZwcsKlZyaHVBHs=
+github.com/venamartin/meshcore-builds v0.0.0-20260408184116-f481135931c5 h1:R2kzs/Io+xQNr0H/bKO7KcpBYg7VXdgunlMrK0Oha18=
+github.com/venamartin/meshcore-builds v0.0.0-20260408184116-f481135931c5/go.mod h1:j3hxTrk2GO9deXgyv+Zuem/croN/xZwcsKlZyaHVBHs=

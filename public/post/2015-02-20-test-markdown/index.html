@@ -17,76 +17,103 @@
   <meta name="description" content="Each post also has a subtitle">
   <meta name="author" content="Some Person"/><script type="application/ld+json">
 {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "vena lab",
-    
-    "url": "https:\/\/lab.vena.com\/"
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "",
-  "url": "https:\/\/lab.vena.com\/"
-  
-  
-  
-  
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "vena lab",
+  "url": "https://lab.vena.com/",
+  "@id": "https://lab.vena.com/#website"
 }
 </script>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@id": "https:\/\/lab.vena.com\/",
-          "name": "home"
-        }
-    },{
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@id": "https:\/\/lab.vena.com\/post\/2015-02-20-test-markdown\/",
-          "name": "Test markdown"
-        }
-    }]
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Some Person",
+  "@id": "https://lab.vena.com/#organization",
+  "url": "https://lab.vena.com/"
 }
-</script><script type="application/ld+json">
+</script>
+<script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Test markdown",
+  "@id": "https://lab.vena.com/post/2015-02-20-test-markdown/",
+  "url": "https://lab.vena.com/post/2015-02-20-test-markdown/",
+  "breadcrumb": {
+    "@id": "https://lab.vena.com/post/2015-02-20-test-markdown/#breadcrumb"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@id": "https://lab.vena.com/post/2015-02-20-test-markdown/#breadcrumb",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": "https://lab.vena.com/",
+      "name": "Home",
+      "position": 1
+    },
+    {
+      "@type": "ListItem",
+      "item": "https://lab.vena.com/post/",
+      "name": "post",
+      "position": 2
+    },
+    {
+      "@type": "ListItem",
+      "item": "https://lab.vena.com/post/2015-02-20-test-markdown/",
+      "name": "Test markdown",
+      "position": 3
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "Article",
+  "@id": "https://lab.vena.com/post/2015-02-20-test-markdown/#article",
+  "isPartOf": {
+    "@id": "https://lab.vena.com/post/2015-02-20-test-markdown/"
+  },
   "author": {
-    "name" : "Some Person"
+    "name": "Some Person",
+    "url": "https://lab.vena.com/",
+    "@id": "https://lab.vena.com/#author"
   },
   "headline": "Test markdown",
-  "description" : "You can write regular markdown here and Hugo will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it\u0026rsquo;ll teach you how to transform regular text into bold\/italics\/headings\/tables\/etc.\nHere is some bold text\nHere is a secondary heading Here\u0026rsquo;s a useless table:\nNumber Next number Previous number Five Six Four Ten Eleven Nine Seven Eight Six Two Three One How about a yummy crepe?\n",
-  "inLanguage" : "en",
+  "description": "You can write regular markdown here and Hugo will automatically convert it to a nice webpage. I strongly encourage you to take 5 minutes to learn how to write in markdown - it\u0026rsquo;ll teach you how to transform regular text into bold\/italics\/headings\/tables\/etc.\nHere is some bold text\nHere is a secondary heading Here\u0026rsquo;s a useless table:\nNumber Next number Previous number Five Six Four Ten Eleven Nine Seven Eight Six Two Three One How about a yummy crepe?\n",
+  "inLanguage": "en",
   "wordCount":  95 ,
-  "datePublished" : "2015-02-20T00:00:00\u002b00:00",
-  "dateModified" : "2015-02-20T00:00:00\u002b00:00",
-  "image" : "https:\/\/lab.vena.com\/img\/square-logo.png",
-  "keywords" : [ "example, markdown" ],
-  "mainEntityOfPage" : "https:\/\/lab.vena.com\/post\/2015-02-20-test-markdown\/",
-  "publisher" : {
+  "dateCreated": "2015-02-20T00:00:00+00:00",
+  "datePublished": "2015-02-20T00:00:00+00:00",
+  "dateModified": "2015-02-20T00:00:00+00:00",
+  "image": "https://lab.vena.com/img/square-logo.png",
+  "keywords": [ "example, markdown" ],
+  "mainEntityOfPage": {
+    "@id": "https://lab.vena.com/post/2015-02-20-test-markdown/"
+  },
+  "publisher": {
     "@type": "Organization",
-    "name" : "https:\/\/lab.vena.com\/",
-    "logo" : {
-        "@type" : "ImageObject",
-        "url" : "https:\/\/lab.vena.com\/img\/square-logo.png",
-        "height" :  60 ,
-        "width" :  60
+    "name": "https://lab.vena.com/",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://lab.vena.com/img/square-logo.png",
+        "height": 60 ,
+        "width": 60
     }
   }
 }
 </script>
 
 
+
 <meta property="og:title" content="Test markdown" />
-<meta property="og:description" content="Each post also has a subtitle">
+<meta property="og:description" content="Each post also has a subtitle" />
 <meta property="og:image" content="https://lab.vena.com/img/square-logo.png" />
 <meta property="og:url" content="https://lab.vena.com/post/2015-02-20-test-markdown/" />
 <meta property="og:type" content="website" />
@@ -140,11 +167,11 @@
           <a class="navlinks-parent" role="button" tabindex="0">Samples</a>
           <div class="navlinks-children">
             
-            <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+            <a href="/post/2017-03-07-bigimg-sample/">Big Image Sample</a>
             
-            <a href="/post/2017-03-05-math-sample">Math Sample</a>
+            <a href="/post/2017-03-05-math-sample/">Math Sample</a>
             
-            <a href="/post/2016-03-08-code-sample">Code Sample</a>
+            <a href="/post/2016-03-08-code-sample/">Code Sample</a>
             
           </div>
         </li>
@@ -158,7 +185,7 @@
         
         
         <li>
-          <a title="Tags" href="/tags">Tags</a>
+          <a title="Tags" href="/tags/">Tags</a>
         </li>
         
         

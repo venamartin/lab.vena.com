@@ -17,76 +17,103 @@
   <meta name="description" content="Using KaTeX">
   <meta name="author" content="Some Person"/><script type="application/ld+json">
 {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "vena lab",
-    
-    "url": "https:\/\/lab.vena.com\/"
-}
-</script><script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "name": "",
-  "url": "https:\/\/lab.vena.com\/"
-  
-  
-  
-  
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "vena lab",
+  "url": "https://lab.vena.com/",
+  "@id": "https://lab.vena.com/#website"
 }
 </script>
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "item": {
-          "@id": "https:\/\/lab.vena.com\/",
-          "name": "home"
-        }
-    },{
-        "@type": "ListItem",
-        "position": 3,
-        "item": {
-          "@id": "https:\/\/lab.vena.com\/post\/2017-03-05-math-sample\/",
-          "name": "Math sample"
-        }
-    }]
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Some Person",
+  "@id": "https://lab.vena.com/#organization",
+  "url": "https://lab.vena.com/"
 }
-</script><script type="application/ld+json">
+</script>
+<script type="application/ld+json">
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Math Sample",
+  "@id": "https://lab.vena.com/post/2017-03-05-math-sample/",
+  "url": "https://lab.vena.com/post/2017-03-05-math-sample/",
+  "breadcrumb": {
+    "@id": "https://lab.vena.com/post/2017-03-05-math-sample/#breadcrumb"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@id": "https://lab.vena.com/post/2017-03-05-math-sample/#breadcrumb",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": "https://lab.vena.com/",
+      "name": "Home",
+      "position": 1
+    },
+    {
+      "@type": "ListItem",
+      "item": "https://lab.vena.com/post/",
+      "name": "post",
+      "position": 2
+    },
+    {
+      "@type": "ListItem",
+      "item": "https://lab.vena.com/post/2017-03-05-math-sample/",
+      "name": "Math Sample",
+      "position": 3
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "Article",
+  "@id": "https://lab.vena.com/post/2017-03-05-math-sample/#article",
+  "isPartOf": {
+    "@id": "https://lab.vena.com/post/2017-03-05-math-sample/"
+  },
   "author": {
-    "name" : "Some Person"
+    "name": "Some Person",
+    "url": "https://lab.vena.com/",
+    "@id": "https://lab.vena.com/#author"
   },
   "headline": "Math Sample",
-  "description" : "KaTeX can be used to generate complex math formulas server-side.\n$$ \\phi = \\frac{(1\u002b\\sqrt{5})}{2} = 1.6180339887\\cdots $$\nAdditional details can be found on GitHub or on the project homepage.\n",
-  "inLanguage" : "en",
+  "description": "KaTeX can be used to generate complex math formulas server-side.\n$$ \\phi = \\frac{(1\u002b\\sqrt{5})}{2} = 1.6180339887\\cdots $$\nAdditional details can be found on GitHub or on the project homepage.\n",
+  "inLanguage": "en",
   "wordCount":  121 ,
-  "datePublished" : "2017-03-05T00:00:00\u002b00:00",
-  "dateModified" : "2017-03-05T00:00:00\u002b00:00",
-  "image" : "https:\/\/lab.vena.com\/img\/square-logo.png",
-  "keywords" : [ "example, math" ],
-  "mainEntityOfPage" : "https:\/\/lab.vena.com\/post\/2017-03-05-math-sample\/",
-  "publisher" : {
+  "dateCreated": "2017-03-05T00:00:00+00:00",
+  "datePublished": "2017-03-05T00:00:00+00:00",
+  "dateModified": "2017-03-05T00:00:00+00:00",
+  "image": "https://lab.vena.com/img/square-logo.png",
+  "keywords": [ "example, math" ],
+  "mainEntityOfPage": {
+    "@id": "https://lab.vena.com/post/2017-03-05-math-sample/"
+  },
+  "publisher": {
     "@type": "Organization",
-    "name" : "https:\/\/lab.vena.com\/",
-    "logo" : {
-        "@type" : "ImageObject",
-        "url" : "https:\/\/lab.vena.com\/img\/square-logo.png",
-        "height" :  60 ,
-        "width" :  60
+    "name": "https://lab.vena.com/",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://lab.vena.com/img/square-logo.png",
+        "height": 60 ,
+        "width": 60
     }
   }
 }
 </script>
 
 
+
 <meta property="og:title" content="Math Sample" />
-<meta property="og:description" content="Using KaTeX">
+<meta property="og:description" content="Using KaTeX" />
 <meta property="og:image" content="https://lab.vena.com/img/square-logo.png" />
 <meta property="og:url" content="https://lab.vena.com/post/2017-03-05-math-sample/" />
 <meta property="og:type" content="website" />
@@ -140,11 +167,11 @@
           <a class="navlinks-parent" role="button" tabindex="0">Samples</a>
           <div class="navlinks-children">
             
-            <a href="/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+            <a href="/post/2017-03-07-bigimg-sample/">Big Image Sample</a>
             
-            <a href="/post/2017-03-05-math-sample">Math Sample</a>
+            <a href="/post/2017-03-05-math-sample/">Math Sample</a>
             
-            <a href="/post/2016-03-08-code-sample">Code Sample</a>
+            <a href="/post/2016-03-08-code-sample/">Code Sample</a>
             
           </div>
         </li>
@@ -158,7 +185,7 @@
         
         
         <li>
-          <a title="Tags" href="/tags">Tags</a>
+          <a title="Tags" href="/tags/">Tags</a>
         </li>
         
         
