@@ -72,6 +72,10 @@
   </url><url>
     <loc>//localhost:8089/post/page/about/</loc>
   </url><url>
+    <loc>//localhost:8089/ais/</loc>
+  </url><url>
+    <loc>//localhost:8089/aprs/</loc>
+  </url><url>
     <loc>//localhost:8089/categories/</loc>
   </url><url>
     <loc>//localhost:8089/page/</loc>
