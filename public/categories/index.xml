@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on vena lab</title>
-    <link>https://lab.vena.com/categories/</link>
+    <link>//localhost:8089/categories/</link>
     <description>Recent content in Categories on vena lab</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
     <webMaster>youremail@domain.com (Some Person)</webMaster>
-    <atom:link href="https://lab.vena.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:8089/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

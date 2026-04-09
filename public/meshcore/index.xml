@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vena lab</title>
-    <link>https://lab.vena.com/meshcore/</link>
+    <link>//localhost:8089/meshcore/</link>
     <description>Recent content on vena lab</description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>youremail@domain.com (Some Person)</managingEditor>
     <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Mon, 09 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lab.vena.com/meshcore/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:8089/meshcore/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Low Cost Solar Meshcore Repeater</title>
-      <link>https://lab.vena.com/meshcore/low-cost-repeater-build/</link>
+      <title>Meshcore Repeater [Rak 1W Build]</title>
+      <link>//localhost:8089/meshcore/meshcore-repeater-rak-1w/</link>
       <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate><author>youremail@domain.com (Some Person)</author>
-      <guid>https://lab.vena.com/meshcore/low-cost-repeater-build/</guid>
-      <description>&lt;div class=&#34;gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;&#xA;&#x9;  &#xA;&#xA;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://lab.vena.com/css/hugo-easy-gallery.css&#34; /&gt;&#xA;&lt;div class=&#34;box&#34; &gt;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;https://lab.vena.com//images/low-cost-repeater-inside-thumb.jpg&#39;);&#34;&gt;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://lab.vena.com/images/low-cost-repeater-inside-thumb.jpg&#34; alt=&#34;Internal&#34;/&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;a href=&#34;https://lab.vena.com/images/low-cost-repeater-inside.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;      &lt;figcaption&gt;&#xA;          &lt;p&gt;Internal&lt;/p&gt;&#xA;      &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;low-cost-solar-meshcore-repeater&#34;&gt;Low Cost Solar Meshcore Repeater&lt;/h2&gt;&#xA;&lt;p&gt;This Meshcore repeater utilizes the RAK WisMesh 1W Booster Starter Kit (3401 + 13302). Powered by the RAK3401 WisBlock Core module with the Nordic nRF52840 MCU and the RAK13302 1W LoRa transceiver module, delivering up to 1W (30 dBm) transmit power.&lt;/p&gt;&#xA;&lt;p&gt;The build does require access to a 3D printer and preferably ADA filament. The enclosure and brackets are designed to be mounted on a pole.&lt;/p&gt;</description>
+      <guid>//localhost:8089/meshcore/meshcore-repeater-rak-1w/</guid>
+      <description>&lt;div class=&#34;gallery caption-position-bottom caption-effect-fade hover-effect-zoom hover-transition&#34; itemscope itemtype=&#34;http://schema.org/ImageGallery&#34;&gt;&#xA;&#x9;  &#xA;&#xA;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;//localhost:8089/css/hugo-easy-gallery.css&#34; /&gt;&#xA;&lt;div class=&#34;box&#34; &gt;&#xA;  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;&#xA;    &lt;div class=&#34;img&#34; style=&#34;background-image: url(&#39;//localhost:8089//images/meshcore/meshcore-repeater-rak-1w-inside-thumb.jpg&#39;);&#34;&gt;&#xA;      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;//localhost:8089/images/meshcore/meshcore-repeater-rak-1w-inside-thumb.jpg&#34; alt=&#34;Internal&#34;/&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;a href=&#34;//localhost:8089/images/meshcore/meshcore-repeater-rak-1w-inside.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;&#xA;      &lt;figcaption&gt;&#xA;          &lt;p&gt;Internal&lt;/p&gt;&#xA;      &lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;This Meshcore repeater utilizes the RAK WisMesh 1W Booster Starter Kit (3401 + 13302). Powered by the RAK3401 WisBlock Core module with the Nordic nRF52840 MCU and the RAK13302 1W LoRa transceiver module, delivering up to 1W (30 dBm) transmit power.&lt;/p&gt;&#xA;&lt;p&gt;The build does require access to a 3D printer and preferably ADA filament. The enclosure and brackets are designed to be mounted on a pole.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

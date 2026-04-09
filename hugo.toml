@@ -20,16 +20,6 @@ pygmentsCodefencesGuessSyntax = true
   [[module.imports]]
     path = "github.com/halogenica/beautifulhugo"
 
-  # 2. Mount your Meshcore project
-  [[module.imports]]
-    path = "github.com/venamartin/meshcore-builds"
-    [[module.imports.mounts]]
-      source = "docs"              # The folder name INSIDE your Meshcore repo
-      target = "content/meshcore"  # Where it should appear on your website
-    [[module.imports.mounts]]
-      source = "docs/images"       # The images folder in your Meshcore repo
-      target = "static/images"     # Mapped to the root /images/ path on your website
-      
 [Services]
   [Services.Disqus]
     # Shortname = "XXX"
@@ -41,7 +31,7 @@ pygmentsCodefencesGuessSyntax = true
 #  subtitle = "Vena Engineering Corp Lab"
 
   # Added "meshcore" to mainSections so your mounted posts appear on the homepage feed!
-  mainSections = ["post", "meshcore"]
+  mainSections = ["post", "meshcore", "ais", "aprs"]
   
   logo = "img/square-logo.png" # Expecting square dimensions
   favicon = "img/square-logo.png"
