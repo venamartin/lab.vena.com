@@ -21,7 +21,6 @@ This Meshcore repeater utilizes the RAK WisMesh 1W Booster Starter Kit (3401 + 1
 {{< /gallery >}}
 
 
-df
 ### Required Components
 
 
