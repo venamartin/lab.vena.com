@@ -18,6 +18,12 @@ content:
       - name: date
         label: Date
         type: datetime
+      - name: tags
+        label: Tags
+        type: list
+      - name: author
+        label: Author
+        type: string
       - name: draft
         label: Draft
         type: boolean
