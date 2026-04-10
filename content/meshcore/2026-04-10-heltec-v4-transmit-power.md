@@ -5,7 +5,7 @@ draft: false
 ---
 Testing the Heltec V4 shows that higher TX settings don't always mean more power. The hardware eventually levels off, meaning settings and actual output don't scale one-to-one.
 
-``
+<!--more-->
 
 ### Measured Gain and Current Table
 
