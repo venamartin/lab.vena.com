@@ -1,0 +1,51 @@
+# .pages.yml
+
+# Media settings (where your images live)
+media:
+  input: static/images
+  output: /images
+
+# This maps your specific folders to the Pages CMS sidebar
+content:
+  - name: aprs
+    label: APRS
+    path: content/aprs
+    type: collection
+    fields: &default_fields
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: datetime
+      - name: draft
+        label: Draft
+        type: boolean
+      - name: body
+        label: Content
+        type: rich-text
+
+  - name: ais
+    label: AIS
+    path: content/ais
+    type: collection
+    fields: *default_fields
+
+  - name: meshcore
+    label: Meshcore
+    path: content/meshcore
+    type: collection
+    fields: *default_fields
+
+  - name: page
+    label: Pages
+    path: content/page
+    type: collection
+    fields: *default_fields
+
+  - name: post
+    label: Posts
+    path: content/post
+    type: collection
+    fields: *default_fields
+    
