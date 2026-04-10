@@ -1,6 +1,11 @@
 ---
 title: Heltec V4 Transmit Power
 date: 2026-04-10
+tags:
+  - meshcore
+  - heltec
+  - v4
+  - txpower
 author: Martin
 draft: false
 ---
