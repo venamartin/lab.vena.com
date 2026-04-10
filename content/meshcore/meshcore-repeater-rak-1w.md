@@ -25,7 +25,6 @@ df
 ### Required Components
 
 
-
 | Image | Item | Price (Aprox) | Purchase Link |
 | ----- | ---- | ------------- | ------------- |
 | ![](/images/meshcore/meshcore-rak-1w.jpg) | RAK WisMesh 1W Booster Starter Kit (3401 + 13302) | $40 | https://store.rakwireless.com/products/meshtastic-1w-lora-booster-kit-rak3401 |

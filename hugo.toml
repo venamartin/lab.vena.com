@@ -38,7 +38,7 @@ pygmentsCodefencesGuessSyntax = true
   dateFormat = "January 2, 2006"
   custom_css = ["css/custom.css"]
   commit = false
-  rss = true
+  rss = false
   comments = true
   readingTime = true
   wordCount = true
@@ -67,7 +67,7 @@ pygmentsCodefencesGuessSyntax = true
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Vena Team"
   website = "lab.vena.com"
-  email = "hamtracks.vena.com"
+#  email = "hamtracks.vena.com"
 #  facebook = "username"
 #  github = "username"
 #  gitlab = "username"

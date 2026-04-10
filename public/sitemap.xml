@@ -28,20 +28,8 @@
   </url><url>
     <loc>//localhost:8089/aprs/</loc>
   </url><url>
-    <loc>//localhost:8089/tags/bigimg/</loc>
-  </url><url>
     <loc>//localhost:8089/categories/</loc>
   </url><url>
-    <loc>//localhost:8089/tags/code/</loc>
-  </url><url>
-    <loc>//localhost:8089/tags/example/</loc>
-  </url><url>
-    <loc>//localhost:8089/tags/markdown/</loc>
-  </url><url>
-    <loc>//localhost:8089/tags/math/</loc>
-  </url><url>
     <loc>//localhost:8089/page/</loc>
-  </url><url>
-    <loc>//localhost:8089/tags/photoswipe/</loc>
   </url>
 </urlset>
