@@ -73,3 +73,11 @@ table img {
 h1, h2, h3 {
   margin-top: 2em !important;
 }
+
+/* Ensure markdown tables don't break mobile layouts horizontally */
+table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
