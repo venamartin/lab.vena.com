@@ -2,9 +2,23 @@
 
 # Media settings for your images
 media:
-  input: static/images
-  output: /images
-
+  - name: aprs_images
+    label: APRS Images
+    input: static/images/aprs
+    output: /static/images/aprs
+    extensions: [png, jpg, webp]
+  - name: meshcore_images
+    label: Meshcore Images
+    input: static/images/meshcore
+    output: /static/images/meshcore
+    extensions: [png, jpg, webp]
+  - name: ais_images
+    label: AIS Images
+    input: static/images/ais
+    output: /static/images/ais
+    extensions: [png, jpg, webp]   
+    
+     
 # Content collections mapping
 content:
   - name: aprs
