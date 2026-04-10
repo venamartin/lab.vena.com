@@ -43,7 +43,7 @@ pygmentsCodefencesGuessSyntax = true
   readingTime = true
   wordCount = true
   useHLJS = true
-  socialShare = true
+  socialShare = false
   delayDisqus = true
   showRelatedPosts = true
 #  cusdisID = "XXX" # Get your App id from cusdis.com
@@ -65,11 +65,11 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params.author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Some Person"
-  website = "yourwebsite.com"
-  email = "youremail@domain.com"
+  name = "Vena Team"
+  website = "lab.vena.com"
+  email = "hamtracks.vena.com"
 #  facebook = "username"
-  github = "username"
+#  github = "username"
 #  gitlab = "username"
 #  bitbucket = "username"
 #  twitter = "username"
@@ -79,7 +79,7 @@ pygmentsCodefencesGuessSyntax = true
 #  stackoverflow = "users/XXXXXXX/username"
 #  snapchat = "username"
 #  instagram = "username"
-  youtube = "user/username" # or channel/channelname
+#  youtube = "user/username" # or channel/channelname
 #  soundcloud = "username"
 #  spotify = "username"
 #  bandcamp = "username"
@@ -110,26 +110,26 @@ pygmentsCodefencesGuessSyntax = true
     weight = 3
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
+    identifier = "projects"
+    name = "Projects"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "/post/2017-03-07-bigimg-sample/"
+    parent = "projects"
+    name = "Meshcore"
+    url = "/meshcore/"
     weight = 1
 
 [[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "/post/2017-03-05-math-sample/"
+    parent = "projects"
+    name = "AIS"
+    url = "/ais/"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "/post/2016-03-08-code-sample/"
+    parent = "projects"
+    name = "APRS  "
+    url = "/aprs/"
     weight = 3
 
 [[menu.main]]
