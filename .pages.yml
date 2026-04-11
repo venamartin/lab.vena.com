@@ -53,9 +53,12 @@ content:
       - name: draft
         label: Draft
         type: boolean
+      - name: summary
+        label: Summary
+        type: text
       - name: body
         label: Content
-        type: code
+        type: rich-text
 
   - name: ais
     label: AIS
