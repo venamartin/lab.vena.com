@@ -81,27 +81,6 @@
   font-family: 'neuropol' !important;
 }
 
-/* Reduce font sizes on mobile devices */
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 15px !important;
-  }
-
-  .intro-header .page-heading h1 {
-    font-size: 32px !important;
-  }
-
-  .post-preview .post-title {
-    font-size: 24px !important;
-  }
-
-  .post-preview .post-meta,
-  .post-heading .post-meta,
-  .page-meta {
-    font-size: 14px !important;
-  }
-}
-
 /* Constrain table imagery to prevent blowing out table widths */
 table img {
   max-width: 100px;
@@ -122,9 +101,16 @@ table {
   max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  font-size: 14px !important;
+  /* Noticeably smaller text for desktop tables */
 }
 
-
+/* Tighten up general table padding for desktop */
+table th,
+table td {
+  padding: 6px 10px !important;
+  /* Reduces whitespace inside desktop cells */
+}
 
 /* --- Global Body Text Override --- */
 
@@ -145,7 +131,6 @@ p,
   font-family: 'Inter', sans-serif !important;
 }
 
-
 /* --- Note / Blockquote Styling --- */
 
 blockquote,
@@ -154,10 +139,16 @@ blockquote,
   /* Your brand blue */
   background-color: rgba(28, 168, 221, 0.08) !important;
   /* Subtle blue tint */
-  padding: 15px 20px !important;
+  padding: 10px 20px !important;
   margin: 20px 0 !important;
   border-radius: 0 10px 10px 0 !important;
   /* Soften the right corners slightly */
+}
+
+/* Shrink the font size of the text inside the note */
+blockquote p,
+.markdown-alert p {
+  font-size: 14px !important;
 }
 
 /* If Hugo renders a specific title for the [!NOTE] */
@@ -165,10 +156,58 @@ blockquote,
   color: #1CA8DD !important;
   font-weight: 600 !important;
   margin-bottom: 8px !important;
+  font-size: 15px !important;
+  /* Keep the title slightly larger than the body text */
 }
 
 /* Ensure paragraphs inside the note don't have weird bottom margins */
 blockquote p:last-child,
 .markdown-alert p:last-child {
   margin-bottom: 0 !important;
+}
+
+/* ==========================================================================
+   MOBILE OVERRIDES (MUST STAY AT THE VERY BOTTOM OF THE FILE)
+   ========================================================================== */
+
+/* Reduce font sizes on mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 15px !important;
+  }
+
+  .intro-header .page-heading h1 {
+    font-size: 32px !important;
+  }
+
+  .post-preview .post-title {
+    font-size: 24px !important;
+  }
+
+  .post-preview .post-meta,
+  .post-heading .post-meta,
+  .page-meta {
+    font-size: 14px !important;
+  }
+
+  /* Shrink table text and padding further for mobile */
+  table {
+    font-size: 12px !important;
+    /* Slightly smaller again for mobile */
+  }
+
+  table th,
+  table td {
+    padding: 4px 6px !important;
+  }
+
+  /* Shrink the Note text slightly more for mobile */
+  blockquote p,
+  .markdown-alert p {
+    font-size: 13px !important;
+  }
+
+  .markdown-alert .markdown-alert-title {
+    font-size: 14px !important;
+  }
 }
