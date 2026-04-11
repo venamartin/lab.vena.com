@@ -70,8 +70,8 @@ table img {
 }
 
 /* Add breathing room above headers to separate from previous sections */
-h1, h2, h3 {
-  margin-top: 2em !important;
+h2, h3 {
+  margin-top: 1em !important;
 }
 
 /* Ensure markdown tables don't break mobile layouts horizontally */
