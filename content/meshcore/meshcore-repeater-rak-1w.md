@@ -10,6 +10,8 @@ draft: false
 This Meshcore repeater utilizes the RAK WisMesh 1W Booster Starter Kit (3401 + 13302). It is designed to be mounted to a pole or screwed to an eave or wall. It is powered by a 5W solar panel and a 18650 battery. 
 
 
+''
+
 
 > [!NOTE]  
 > This Meshcore repeater build does require access to a 3D printer and preferably ASA filament.
