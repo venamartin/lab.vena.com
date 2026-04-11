@@ -55,7 +55,7 @@ content:
         type: boolean
       - name: body
         label: Content
-        type: rich-text
+        type: text
 
   - name: ais
     label: AIS
