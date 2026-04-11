@@ -1,6 +1,6 @@
 ---
 title: Meshcore Repeater
-subtitle: "[RAK 1W Build]"
+subtitle: RAK WisMesh 1W Booster Build
 date: 2026-03-09
 tags:
   - meshcore

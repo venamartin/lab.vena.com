@@ -27,14 +27,55 @@
   visibility: visible;
 }
 
-/* Reduce space below title underscore */
+/* Reduce space below title underscore (Fixed missing 'px' unit) */
 .intro-header {
-  margin-bottom: 5 !important;
+  margin-bottom: 5px !important;
+}
+
+/* 1. Make the subtitle font smaller */
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading .post-subheading {
+  font-size: 20px !important;
+  /* Adjust this value to your preferred size */
+  font-weight: 400 !important;
+  display: block;
+  margin-top: 0 !important;
+}
+
+/* 2. Pull the subtitle closer to the title by reducing the margins around the separating line */
+.intro-header .page-heading hr.small,
+.intro-header .post-heading hr.small {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  /* Reduces the gap above the subtitle */
+}
+
+/* Optional: Affect the subtitle on the homepage post preview list */
+.post-preview .post-subtitle {
+  font-size: 20px !important;
+  margin-top: 5px !important;
+  font-weight: 400 !important;
+
 }
 
 .posts-list .post-preview:first-child {
   padding-top: 0 !important;
 }
+
+/* --- New: Cut spacing between posts in half --- */
+.posts-list .post-preview {
+  padding-top: 10px !important;
+  /* Halves the default space after the line */
+  padding-bottom: 10px !important;
+  /* Halves the default space before the line */
+}
+
+.posts-list hr {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+/* ---------------------------------------------- */
 
 .intro-header .page-heading h1 {
   font-family: 'neuropol' !important;
@@ -70,7 +111,8 @@ table img {
 }
 
 /* Add breathing room above headers to separate from previous sections */
-h2, h3 {
+h2,
+h3 {
   margin-top: 1em !important;
 }
 
@@ -87,18 +129,46 @@ table {
 /* --- Global Body Text Override --- */
 
 /* Force Inter on all body text, paragraphs, and list summaries */
-body, 
-p, 
-.post-entry, 
-.post-content, 
+body,
+p,
+.post-entry,
+.post-content,
 .article-style {
   font-family: 'Inter', sans-serif !important;
   /* Standardizing line height helps Inter look its best */
-  line-height: 1.6; 
+  line-height: 1.6;
 }
 
 /* Ensure that any specific 'serif' classes from the theme are overridden */
-.font-serif, 
+.font-serif,
 .serif {
   font-family: 'Inter', sans-serif !important;
+}
+
+
+/* --- Note / Blockquote Styling --- */
+
+blockquote,
+.markdown-alert {
+  border-left: 5px solid #1CA8DD !important;
+  /* Your brand blue */
+  background-color: rgba(28, 168, 221, 0.08) !important;
+  /* Subtle blue tint */
+  padding: 15px 20px !important;
+  margin: 20px 0 !important;
+  border-radius: 0 10px 10px 0 !important;
+  /* Soften the right corners slightly */
+}
+
+/* If Hugo renders a specific title for the [!NOTE] */
+.markdown-alert .markdown-alert-title {
+  color: #1CA8DD !important;
+  font-weight: 600 !important;
+  margin-bottom: 8px !important;
+}
+
+/* Ensure paragraphs inside the note don't have weird bottom margins */
+blockquote p:last-child,
+.markdown-alert p:last-child {
+  margin-bottom: 0 !important;
 }
