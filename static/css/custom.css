@@ -81,3 +81,24 @@ table {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
+
+
+
+/* --- Global Body Text Override --- */
+
+/* Force Inter on all body text, paragraphs, and list summaries */
+body, 
+p, 
+.post-entry, 
+.post-content, 
+.article-style {
+  font-family: 'Inter', sans-serif !important;
+  /* Standardizing line height helps Inter look its best */
+  line-height: 1.6; 
+}
+
+/* Ensure that any specific 'serif' classes from the theme are overridden */
+.font-serif, 
+.serif {
+  font-family: 'Inter', sans-serif !important;
+}
