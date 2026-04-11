@@ -37,6 +37,9 @@ content:
       - name: title
         label: Title
         type: string
+      - name: subtitle
+        label: Subtitle
+        type: string
       - name: date
         label: Date
         type: date
