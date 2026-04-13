@@ -13,7 +13,7 @@ This information is valuable for a number of reasons:
 - Friends and family at home can follow a vessel's voyage in real time
 - Clubs and marinas can plan around an expected arrival
 
-![](/images/ais/dagram.png)
+![](/images/ais/diagram.png)
 
 ## What We Did
 
