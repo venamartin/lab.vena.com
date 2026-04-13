@@ -3,6 +3,7 @@ title: AIS Terrestrial Receiver Installation
 date: 2026-04-13
 author: Blake Roberts
 draft: false
+bigimg: [{src: "/images/ais/yacht-club1.png", desc: "Morro Bay Yacht Club"}]
 ---
 # AIS Receiver Installation — Morro Bay
 
