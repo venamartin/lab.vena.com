@@ -23,7 +23,7 @@ We applied online through MarineTraffic's receiver program. The application asks
 
 Once we had the kit, we coordinated with the site to find the best antenna placement an elevated area, with clear line-of-sight to the water and access to ethernet and power nearby. After confirming the location, the install was straightforward: mount the antenna, run the coaxial feedline to the receiver, connect to ethernet and power, and the unit came online automatically. No additional configuration was needed. Within a short time, vessel contacts from Morro Bay were appearing live on MarineTraffic.
 
-![](/images/ais/Antenna4.png)
+![](/images/ais/Antenna3.png)
 
 The receiver provided by MarineTraffic sends all data exclusively to their platform. If you want to process the data on your own and send it where you want, check out our other write up on how we did a separate install using our own receiver hardware.
 
