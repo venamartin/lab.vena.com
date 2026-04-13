@@ -1,5 +1,5 @@
 ---
-title: AIS
+title: AIS Terrestrial Receiver Installation
 date: 2026-04-13
 author: Blake Roberts
 draft: false
