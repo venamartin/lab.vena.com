@@ -27,6 +27,6 @@ Once we had the kit, we coordinated with the site to find the best antenna place
 
 The receiver provided by MarineTraffic sends all data exclusively to their platform. If you want to process the data on your own and send it where you want, check out our other write up on how we did a separate install using our own receiver hardware.
 
-  
 
 
+&nbsp;
