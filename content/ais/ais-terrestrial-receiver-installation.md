@@ -1,12 +1,12 @@
 ---
 title: AIS Terrestrial Receiver Installation
 date: 2026-04-13
+tags:
+  - ais
 author: Blake Roberts
 draft: false
 ---
-
 ![](/images/ais/yacht-club1.png)
-
 
 AIS, or Automatic Identification System, is a tool used by mariners to help see and be seen by other vessels. This system has been in use for nearly three decades and has helped vessels stay accountable and on track to their destinations. AIS uses the VHF frequency band to transmit vessel information to either other ships or to shore-based terrestrial receivers. These receivers then forward the data to one or more aggregation platforms, where anyone can log on and view a vessel's location in real time.
 
@@ -20,7 +20,6 @@ This information is valuable for a number of reasons:
 ![](/images/ais/diagram.png)
 
 ## What We Did
-
 
 We applied online through MarineTraffic's receiver program. The application asks for your proposed location and justifies the coverage gap in the area  for Morro Bay, the gap was clear and the application was approved. The equipment arrived shortly after: a receiver unit, antenna, and the necessary cabling.
 
