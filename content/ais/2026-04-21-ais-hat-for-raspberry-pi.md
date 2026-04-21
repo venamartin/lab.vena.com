@@ -4,6 +4,7 @@ subtitle: "How to receive AIS data on your own device "
 date: 2026-04-21
 tags:
   - ais
+  - raspberry pi
 author: Blake Roberts
 draft: true
 ---
