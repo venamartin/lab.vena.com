@@ -17,36 +17,78 @@ This helps create access via the internet to vessel locations that are normally 
 ## **List of Commands:**
 
 - **Accessing the Raspberry Pi**
-  - hostname -I
-  - ssh pi@<IP_ADDRESS>
+
+```
+hostname -I
+ssh pi@<IP_ADDRESS>
+```
+
 - **System Setup and Updates**
-  - sudo apt update
-  - sudo apt upgrade -y
+
+```
+sudo apt update
+sudo apt upgrade -y
+```
+
 - **Install Signal K**
-  - bash <(curl -sL [https://deb.nodesource.com/setup_20.x](https://deb.nodesource.com/setup_20.x))
-  - sudo apt install -y nodejs
-  - sudo npm install -g --unsafe-perm signalk-server
-  - signalk-server
+
+```
+bash <(curl -sL [https://deb.nodesource.com/setup_20.x])
+sudo apt install -y nodejs
+sudo npm install -g --unsafe-perm signalk-server
+signalk-server
+```
+
 - **Enable Signal K on Boot**
-  - sudo nano /etc/systemd/system/signalk.service
-  - sudo systemctl enable signalk
-  - sudo systemctl start signalk
-  - sudo systemctl status signalk
+
+```
+sudo nano /etc/systemd/system/signalk.service
+sudo systemctl enable signalk
+sudo systemctl start signal's
+sudo systemctl status signalk
+```
+
 - **Access Signal K Dashboard**
-  - http://<IP_ADDRESS>:3000
+
+```
+http://<IP_ADDRESS>:3000
+```
+
 - **Check AIS Data (dAISy HAT)**
-  - sudo cat /dev/serial0
-  - screen /dev/serial0 38400
+
+- sudo cat /dev/serial0
+- screen /dev/serial0 38400
+
+```
+sudo cat /dev/serial0
+screen /dev/serial0 38400
+```
+
 - **WiFi Setup**
-  - sudo raspi-config
-  - sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+```
+sudo raspi-config
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
 - **Reboot and Shutdown**
-  - sudo reboot
-  - sudo shutdown now
+
+- sudo reboot
+- sudo shutdown now
+
+```
+sudo reboot
+sudo shutdown now
+```
+
 - **Testing and Troubleshooting**
-  - top
-  - journalctl -u signalk -f
-  - curl [http://localhost:3000](http://localhost:3000)
+
+```
+top
+journalctl -u signalk -f
+curl [http://localhost:3000](http://localhost:3000)
+```
+
 - **Signal K Setup (AIS Integration)**
   - Once Signal K is running, follow these steps to connect your AIS data:
 
