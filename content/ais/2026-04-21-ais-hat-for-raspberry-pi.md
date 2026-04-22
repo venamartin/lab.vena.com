@@ -1,5 +1,5 @@
 ---
-title: "ais hat for raspberry pi "
+title: AIS Hat for Raspberry Pi 4B
 subtitle: "How to receive AIS data on your own device "
 date: 2026-04-21
 tags:
