@@ -56,9 +56,6 @@ http://<IP_ADDRESS>:3000
 
 - **Check AIS Data (dAISy HAT)**
 
-- sudo cat /dev/serial0
-- screen /dev/serial0 38400
-
 ```
 sudo cat /dev/serial0
 screen /dev/serial0 38400
@@ -72,9 +69,6 @@ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
 - **Reboot and Shutdown**
-
-- sudo reboot
-- sudo shutdown now
 
 ```
 sudo reboot
