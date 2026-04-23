@@ -1,6 +1,9 @@
 ---
 title: OTA Update for RAK Devices
 date: 2026-04-23
+tags:
+  - meshcore
+  - ota
 author: Martin
 draft: false
 summary: Instructions for Over the Air (OTA) updates for RAK, T114 MeshCore
@@ -32,7 +35,7 @@ These steps are compatible with both Android and iOS, as the nRF DFU app interfa
 2. Enable **Packets receipt notifications**.
 3. Change the **Number of Packets** based on your hardware:
   - **RAK:** 10 (or 8)
-    - **T114:** 8
+  - **T114:** 8
 4. Select the firmware ZIP file you downloaded earlier.
 
 ### 4. Perform the Update
