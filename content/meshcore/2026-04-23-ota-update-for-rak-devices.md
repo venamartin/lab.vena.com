@@ -4,6 +4,7 @@ date: 2026-04-23
 tags:
   - meshcore
   - ota
+  - key
 author: Martin
 draft: false
 summary: Instructions for Over the Air (OTA) updates for RAK, T114 MeshCore
