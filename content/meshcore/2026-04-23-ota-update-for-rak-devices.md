@@ -49,3 +49,20 @@ These steps are compatible with both Android and iOS, as the nRF DFU app interfa
 - **Connection issues:** Toggle Bluetooth off and back on, or reboot your phone.
 - **Bootloader Errors:** If the update fails at the "Enabling Bootloader" step, "Forget" the nRF board in your phone's Bluetooth settings and re-pair it directly through the DFU app.
 
+### Set a new private key
+
+> [!Note]
+> Setting a private key is not required for an update. This information is here since it might be a convienent time to perform a key change.
+
+1. Go to [MeshCore Key Generator](https://gessaman.com/mc-keygen/) and generate your new private key.
+2. Open the MeshCore app and log in remotely to the repeater you wish to update (requires admin privileges).
+3. Navigate to the **Command Line** tab.
+4. Enter the following command:
+  ```bash
+    set prv.key <private_key_you_generated>
+    reboot
+  ```
+5. To find your repeater again, you might have to go to **Discover Nearby Repeaters**
+
+
+
