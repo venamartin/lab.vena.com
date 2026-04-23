@@ -41,9 +41,8 @@ These steps are compatible with both Android and iOS, as the nRF DFU app interfa
 ### 4. Perform the Update
 
 1. Select the device you want to update from the list.
-  - *Note: If the device is not found, try enabling `start ota` again or enable **Force Scanning** in the DFU app settings.*
-2. Tap **Upload** to begin the process.
-3. Wait for the update to complete. This may take several minutes.
+
+2. Wait for the update to complete. This may take several minutes.
 
 ### Troubleshooting
 
